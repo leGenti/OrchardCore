@@ -1,0 +1,13 @@
+@model OrchardCore.Media.ViewModels.DisplayMediaFieldViewModel
+@using OrchardCore.ContentManagement.Metadata.Models
+
+@{
+    var displayPath = Model.Paths.FirstOrDefault();
+ }
+
+
+@if(!String.IsNullOrEmpty(displayPath))
+{
+    <img src="@Orchard.AssetUrl(displayPath)" class="imgcover" />
+}
+

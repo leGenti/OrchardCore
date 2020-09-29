@@ -1,0 +1,13 @@
+[
+  {
+    "generateSourceMaps": false,
+    "inputs": [ "Assets/scss/MyStyle.scss" ],
+    "output": "wwwroot/css/MyStyle.css"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [ "Assets/js/MyScript.js" ],
+    "output": "wwwroot/js/MyScript.js"
+  }
+
+]
